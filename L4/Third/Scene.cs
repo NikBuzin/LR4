@@ -27,13 +27,12 @@ namespace L4.Third
                     lines.Add(new PolyLine3D(vertices));
                 }
             }
-            //lines.Sort();
+            
             foreach (PolyLine3D pl in lines)
             {
                 List<Point> points = new List<Point>();
                 foreach (Vector3 v in pl.Vertices)
-                    points.Add(scr.Convert(v));
-                //g.FillPolygon(Brushes.White, points.ToArray());
+                    points.Add(scr.Convert(v));               
                 g.DrawLines(Pens.Black, points.ToArray());
             }
 

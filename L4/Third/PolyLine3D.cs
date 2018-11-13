@@ -9,17 +9,8 @@ namespace L4.Third
 {
     public class PolyLine3D
     {
-        public class Compare //: IComparer<PolyLine3D>
+        public class Compare 
         {
-            /*public int Compare(PolyLine3D x, PolyLine3D y)
-            {
-                float a = 0, b = 0;
-                foreach (Vector3 v in x.Vertices)
-                    a += v.Z;
-                foreach (Vector3 v in y.Vertices)
-                    b += v.Z;
-                a = a/x.Vertices
-            }*/
         }
         private List<Vector3> vertices;
         public PolyLine3D(IList<Vector3> v, bool closed = false)
