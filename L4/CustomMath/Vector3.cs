@@ -26,7 +26,11 @@ namespace L4.CastomMath
         public float Y { get { return coordinates[1]; } set { coordinates[1] = value; } }
         public float Z { get { return coordinates[2]; } set { coordinates[2] = value; } }
 
-        public float this[int i] { get { return coordinates[i]; } set { coordinates[i] = value; } }
+        public float this[int i]
+        {
+            get { return coordinates[i]; }
+            set { coordinates[i] = value; }
+        }
 
 
     }

@@ -18,7 +18,11 @@ namespace L4.CastomMath
                     values[i, j] = v[i, j];
         }
 
-        public float this[int i, int j] { get { return values[i,j]; } set { values[i, j] = value; } }
+        public float this[int i, int j]
+        {
+            get { return values[i,j]; }
+            set { values[i, j] = value; }
+        }
 
         public static Matrix4 Zero()
         {

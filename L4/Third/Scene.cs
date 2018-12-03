@@ -27,7 +27,7 @@ namespace L4.Third
                     lines.Add(new PolyLine3D(vertices));
                 }
             }
-            
+            lines.Sort(new Comparison<PolyLine3D>((a, b) => { return (int)(a.Vertices.Average(x => x.Z) - b.Vertices.Average(x => x.Z)); }));
             foreach (PolyLine3D pl in lines)
             {
                 List<Point> points = new List<Point>();

@@ -55,14 +55,8 @@
     <Compile Include="Form_L4.Designer.cs">
       <DependentUpon>Form_L4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\1andX.cs" />
-    <Compile Include="Models\Abs.cs" />
-    <Compile Include="Models\E_sin.cs" />
-    <Compile Include="Models\E_sin_spec.cs" />
-    <Compile Include="Models\ln.cs" />
-    <Compile Include="Models\x^%28%29sin%28x%29.cs" />
-    <Compile Include="Models\x^3-x^2.cs" />
-    <Compile Include="Models\X^4.cs" />
+    <Compile Include="Models\DrawModels.cs" />
+    <Compile Include="Models\Function.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Third\Camera.cs" />
